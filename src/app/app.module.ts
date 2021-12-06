@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChartService } from './chart.service';
+import { ChartService } from './Service/chart.service';
 
 @NgModule({
   declarations: [

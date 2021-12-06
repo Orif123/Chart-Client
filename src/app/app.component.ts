@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { ChartService } from './chart.service';
+
 import {Chart , registerables} from 'chart.js'
+import { ChartService } from './Service/chart.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
